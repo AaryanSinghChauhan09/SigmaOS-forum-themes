@@ -3,7 +3,7 @@ name = "SigmaOS-forum-themes"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "forum-themes component"
+description = "Community forum theme pack"
 upstream = []
 
 [contract]
