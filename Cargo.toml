@@ -1,17 +1,15 @@
 [package]
-name = "sigmaos-component"
+name = "SigmaOS-forum-themes"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Team"]
-license = "MIT OR Apache-2.0"
-description = "SigmaOS component following engineering principles"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_component component"
+
+[lib]
+name = "sigmaos_component"
+path = "src/lib.rs"
 
 [dependencies]
-anyhow = "1.0"
-thiserror = "1.0"
-log = "0.4"
-env_logger = "0.10"
-serde = { version = "1.0", features = ["derive"] }
-toml = "0.8"
+thiserror = "1"
 
 [dev-dependencies]
